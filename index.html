@@ -4,29 +4,229 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>The Pink House | Custom Furniture & Home Decor in Houma, LA</title>
-  <meta name="description" content="The Pink House creates custom-built furniture, painted furniture, restored pieces, and handcrafted home decor in Houma, Louisiana." />
+  <title>The Pink House | Custom Furniture & Furniture Painting in Houma, LA</title>
+  <meta name="description" content="The Pink House creates custom-built furniture, painted furniture, restored pieces, and handcrafted home decor in Houma, Louisiana. Request a custom quote or view available pieces." />
 
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
 
-  <header>
-    <h1>The Pink House</h1>
-    <p>Custom. Unique. Handcrafted with Love.</p>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand" aria-label="The Pink House home">
+        <img src="assets/images/pinkhousewebsitelogo.JPG" alt="The Pink House logo" />
+      </a>
+
+      <nav class="nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="our-work.html">Our Work</a>
+        <a href="available-now.html">Available Now</a>
+        <a href="custom-furniture.html">Custom Furniture</a>
+        <a href="furniture-painting.html">Furniture Painting</a>
+        <a href="contact.html" class="nav-cta">Request a Quote</a>
+      </nav>
+    </div>
   </header>
 
   <main>
-    <section>
-      <h2>We Bring Furniture Back to Life.</h2>
-      <p>Custom-built furniture, painted pieces, furniture restoration, and handcrafted home decor made in Houma, Louisiana.</p>
-      <a href="contact.html">Request a Custom Quote</a>
-      <a href="available-now.html">View Available Pieces</a>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Houma, Louisiana · Appointment & Custom Order Only</p>
+
+          <h1>We Bring Furniture Back to Life.</h1>
+
+          <p class="hero-text">
+            Custom-built furniture, painted pieces, furniture restoration, and handcrafted home decor made with character, care, and a whole lot of pink.
+          </p>
+
+          <div class="button-row">
+            <a href="contact.html" class="btn btn-primary">Request a Custom Quote</a>
+            <a href="available-now.html" class="btn btn-secondary">Shop Available Pieces</a>
+          </div>
+        </div>
+
+        <div class="hero-image-card">
+          <img src="assets/images/custom-green-island.jpg" alt="Custom green furniture island by The Pink House" />
+        </div>
+      </div>
     </section>
+
+    <!-- TRUST BAR -->
+    <section class="trust-bar">
+      <div class="container trust-grid">
+        <div>
+          <strong>10K+</strong>
+          <span>Facebook Followers</span>
+        </div>
+
+        <div>
+          <strong>Houma, LA</strong>
+          <span>Locally Made</span>
+        </div>
+
+        <div>
+          <strong>Custom</strong>
+          <span>Built & Painted</span>
+        </div>
+
+        <div>
+          <strong>Unique</strong>
+          <span>Handcrafted Decor</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">What We Create</p>
+          <h2>Furniture and decor with personality.</h2>
+          <p>
+            Whether you have a piece that needs a second life or you want something made just for your home, The Pink House creates one-of-a-kind work that does not look mass-produced.
+          </p>
+        </div>
+
+        <div class="card-grid three">
+          <article class="service-card">
+            <h3>Custom-Built Furniture</h3>
+            <p>One-of-a-kind tables, cabinets, islands, consoles, and statement pieces built for your space.</p>
+          </article>
+
+          <article class="service-card">
+            <h3>Furniture Painting</h3>
+            <p>Client-owned furniture transformed with fresh paint, beautiful finishes, and careful detail work.</p>
+          </article>
+
+          <article class="service-card">
+            <h3>Handcrafted Home Decor</h3>
+            <p>Door hangers, seasonal signs, porch decor, and custom accents made with personality.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY PREVIEW -->
+    <section class="section section-soft">
+      <div class="container">
+        <div class="split-heading">
+          <div>
+            <p class="eyebrow">Portfolio</p>
+            <h2>Recent work from The Pink House.</h2>
+          </div>
+
+          <a href="our-work.html" class="text-link">View full gallery</a>
+        </div>
+
+        <div class="gallery-grid">
+          <img src="assets/images/custom-mint-sideboard.jpg" alt="Custom mint sideboard by The Pink House" />
+          <img src="assets/images/custom-white-cabinet.jpg" alt="Custom white cabinet by The Pink House" />
+          <img src="assets/images/decor-be-blessed-hanger.jpg" alt="Be Blessed handmade door hanger by The Pink House" />
+          <img src="assets/images/painted-blue-chestofdrawers.jpg" alt="Painted blue chest of drawers by The Pink House" />
+          <img src="assets/images/painted-gray-bombay-chest.jpg" alt="Painted gray Bombay chest by The Pink House" />
+          <img src="assets/images/custom-dining-set.jpg" alt="Custom dining table and chairs by The Pink House" />
+        </div>
+      </div>
+    </section>
+
+    <!-- AVAILABLE NOW -->
+    <section class="section">
+      <div class="container feature-grid">
+        <div>
+          <p class="eyebrow">Available Now</p>
+          <h2>Finished pieces and seasonal decor ready to claim.</h2>
+
+          <p>
+            Some pieces are available for purchase without a custom quote. These may include painted furniture, door hangers, porch signs, seasonal decor, and one-of-a-kind handcrafted items.
+          </p>
+
+          <a href="available-now.html" class="btn btn-primary">View Available Pieces</a>
+        </div>
+
+        <div class="feature-card">
+          <img src="assets/images/decor-welcome-hanger.jpg" alt="Welcome handcrafted door hanger by The Pink House" />
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="section section-black">
+      <div class="container">
+        <div class="section-heading light">
+          <p class="eyebrow">How Custom Orders Work</p>
+          <h2>Simple process. Custom result.</h2>
+        </div>
+
+        <div class="steps-grid">
+          <div>
+            <span>01</span>
+            <h3>Send your idea</h3>
+            <p>Tell us what you want built, painted, restored, or created.</p>
+          </div>
+
+          <div>
+            <span>02</span>
+            <h3>Share details</h3>
+            <p>Photos, measurements, colors, inspiration, and timing help us quote accurately.</p>
+          </div>
+
+          <div>
+            <span>03</span>
+            <h3>Get your quote</h3>
+            <p>We’ll review the project and respond with next steps.</p>
+          </div>
+
+          <div>
+            <span>04</span>
+            <h3>Bring it to life</h3>
+            <p>Your piece gets built, painted, restored, or handcrafted with care.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT PREVIEW -->
+    <section class="section">
+      <div class="container about-preview">
+        <div>
+          <p class="eyebrow">About The Pink House</p>
+          <h2>Custom. Unique. Handcrafted with Love.</h2>
+        </div>
+
+        <div>
+          <p>
+            The Pink House is a Houma-based creative studio specializing in custom furniture, painted furniture, restored pieces, and handcrafted home decor. What started as a love for transforming ordinary pieces has grown into a local brand followed by thousands.
+          </p>
+
+          <a href="about.html" class="text-link">Learn more</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="section final-cta">
+      <div class="container">
+        <h2>Have a piece that needs new life?</h2>
+
+        <p>
+          Send us the details and let’s talk about what The Pink House can create for your home.
+        </p>
+
+        <a href="contact.html" class="btn btn-primary">Request a Custom Quote</a>
+      </div>
+    </section>
+
   </main>
 
-  <footer>
-    <p>© 2026 The Pink House. Houma, LA.</p>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 The Pink House · Houma, LA</p>
+      <p>Custom. Unique. Handcrafted with Love.</p>
+    </div>
   </footer>
 
 </body>
